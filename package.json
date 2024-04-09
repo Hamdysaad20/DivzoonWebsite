@@ -25,8 +25,5 @@
     "postcss": "^8.4.14",
     "postinstall": "sed -i.bak \"s/\\srequire('postcss-flexbugs-fixes')/require('postcss-cssnext'),require('postcss-flexbugs-fixes')/g\" node_modules/react-scripts/config/webpack.config.dev.js && sed -i.bak \"s/\\srequire('postcss-flexbugs-fixes')/require('postcss-cssnext'),require('postcss-flexbugs-fixes')/g\" node_modules/react-scripts/config/webpack.config.prod.js",
     "tailwindcss": "^3.1.3"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
