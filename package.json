@@ -1,0 +1,32 @@
+{
+  "name": "divzoon3.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@nextui-org/react": "^1.0.5-beta.5",
+    "emailjs": "^4.0.1",
+    "framer-motion": "^6.3.2",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll-motion": "^0.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.12.0",
+    "eslint-config-next": "^13.1.3",
+    "postcss": "^8.4.14",
+    "postinstall": "sed -i.bak \"s/\\srequire('postcss-flexbugs-fixes')/require('postcss-cssnext'),require('postcss-flexbugs-fixes')/g\" node_modules/react-scripts/config/webpack.config.dev.js && sed -i.bak \"s/\\srequire('postcss-flexbugs-fixes')/require('postcss-cssnext'),require('postcss-flexbugs-fixes')/g\" node_modules/react-scripts/config/webpack.config.prod.js",
+    "tailwindcss": "^3.1.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
